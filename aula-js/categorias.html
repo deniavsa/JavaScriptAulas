@@ -96,10 +96,40 @@
     //A variavel COD recebe o que for digitado no inut codigo
     const cod = document.getElementById('codigo');
     //A variavel evento recebe o  que for digitado no input tipo evento
-    const evento - document.getElementById('nome-tipo-evento')
+    const evento = document.getElementById('nome-tipo-evento');
+
+    //criar função enviar
+
+    function enviar() {
+      //Evitar comportamento padrão da página
+      event.preventDefault();
+
+      //Pegar id da tabela para poder inserir dados
+      let tabela = document.getElementById('tabela-lista-corpo');
+      //Criar uma linha na tabela
+      let linha = document.createElement("tr");
+      //Criar uma coluna na tabela
+      let colunaId = document.createElement("td");
+      //Colcocar um valor para coluna
+      colunaId.textContent = cod.value;
+      //Criar coluna nome
+      colunaNome = document.createElement("td");
+      //Receber o valor da coluna nome
+      colunaNome.textContent = evento.value;
+
+      //linha associar na coluna
+      linha.appendChild(colunaId);
+      //linha associar na coluna 
+      linha.appendChild(colunaNome);
+
+      //Associar as duas linhas
+      tabela.appendChild(linha);
+      evento.value="";
+      cod.value = "";
+      cod.className = "";
+    }
 
 
-  
   </script>
 
 
