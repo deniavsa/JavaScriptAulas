@@ -20,8 +20,20 @@ function soma(numero1, numero2){
 
 // 
 
+var nomeUsuario = "Denilson";
+
+var mensagem = "";
 
 
+if(nomeUsuario == " Denilso"){
 
-
+    mensagem = "Nome igual";
+    
+    }else{
+        mensagem = " Nome diferente";
+    }
+    
+    document.write(mensagem);
+    
+    document.bgColor = "green";
 
