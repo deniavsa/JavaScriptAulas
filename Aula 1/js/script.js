@@ -20,28 +20,40 @@ function soma(numero1, numero2) {
 
 // 
 
-var nomeUsuario = "Denilson";
+// var nomeUsuario = "Denilson";
 
-var mensagem = "";
+// var mensagem = "";
 
 
-if (nomeUsuario == " Denilso") {
+// if (nomeUsuario == " Denilso") {
 
-    mensagem = "Nome igual";
+//     mensagem = "Nome igual";
 
-} else {
-    mensagem = " Nome diferente";
+// } else {
+//     mensagem = " Nome diferente";
+// }
+
+// document.write(mensagem);//
+
+// document.bgColor = "green";//
+
+// //exemplo  de while com DOM manipulation
+// count = 0;//iniciando variavel tipo number
+// while(count <=10){
+//     document.write(count);
+//     count++;
+// }
+// //exemplo  de  do-while com DOM manipulation
+// count = 0;// iniciando variavel tipo number
+
+// do{
+//     document.write(count);
+//     count++;
+// }while(count <= 5);
+
+// for com DOM
+
+for (var i = 0; i <= 10; i++) {
+    document.write("Denilson");
 }
-
-document.write(mensagem);//
-
-document.bgColor = "green";//
-
-//exemplo  de while com DOM manipulation
-count = 0;
-while(count <=10){
-    document.write(count);
-    count++;
-}
-
 
