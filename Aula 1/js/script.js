@@ -1,22 +1,22 @@
 //Declarar variaveis
 
-var length = 21;//numeros
-var sobrenome = "Santos";//String
-var carros = ["Saab", "Volvo", "BMW"];//Array
-var x = { primeironome: "Denilson", ultimonome: "Santos" };//Objeto
+// var length = 21;//numeros
+// var sobrenome = "Santos";//String
+// var carros = ["Saab", "Volvo", "BMW"];//Array
+// var x = { primeironome: "Denilson", ultimonome: "Santos" };//Objeto
 
-//Função
-function soma(numero1, numero2) {
-    return numero1 + numero2;
-}
+// //Função
+// function soma(numero1, numero2) {
+//     return numero1 + numero2;
+// }
 
-soma(1, 2); //Usar uma função
+// soma(1, 2); //Usar uma função
 
-//invocando uma função antes de definir
-soma(1, 3);
-function soma(numero1, numero2) {
-    return numero1 + numero2;
-}
+// //invocando uma função antes de definir
+// soma(1, 3);
+// function soma(numero1, numero2) {
+//     return numero1 + numero2;
+// }
 
 // 
 
@@ -68,18 +68,18 @@ function soma(numero1, numero2) {
 // document.write(carro2, corC2);
 // documento.bgColor = corC2;
 
-console.log("Carros Disponiveis : Volvo na cor vermelha e gol na cor verde");
+// console.log("Carros Disponiveis : Volvo na cor vermelha e gol na cor verde");
 
-let carro = prompt("Digite o Carro 1");
-let corC = prompt("Digite a cor do carro");
+// let carro = prompt("Digite o Carro 1");
+// let corC = prompt("Digite a cor do carro");
 
-if (carro == "volvo" && corC == "red") {
-    document.write("Volvo na cor vermelha");
-    documento.bgColor = "corC";
-} else {
-    document.write("Gol na cor verde");
-    documento.bgColor = "corC";
-}
+// if (carro == "volvo" && corC == "red") {
+//     document.write("Volvo na cor vermelha");
+//     documento.bgColor = "corC";
+// } else {
+//     document.write("Gol na cor verde");
+//     documento.bgColor = "corC";
+// }
 
 
 
